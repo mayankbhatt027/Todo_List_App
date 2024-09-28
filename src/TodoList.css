@@ -1,0 +1,17 @@
+body{
+    background-image: url(./todoo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#app{
+    background-image: rgba(0, 0, 0, 0);
+}
+span {
+    display: inline-block;
+    max-width: 85%; /* Limit the width of the span */
+    /* white-space: nowrap; Prevent long words from wrapping */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Show ellipsis when content overflows */
+    padding: 0.5rem;
+    margin: 0.5rem ;
+  }
